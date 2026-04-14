@@ -14,7 +14,7 @@ config();
 // console.log(response.output_text);
 
 import Groq from "groq-sdk";
-import { tavily } from "@tavily/core";
+import { tavily } from "@tavily/core"; // here tavily is used to search on the browser basicaly toolcall ;
 
 const tvly = tavily({apiKey : process.env.TAVILY_API_KEY})
 
